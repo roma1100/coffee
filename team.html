@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Команда - Aroma Coffee Roasters</title>
+    <link rel="stylesheet" href="./css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar is-dark" role="navigation" style="display: flex; align-items: center;">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <span class="icon-text" style="display: flex; align-items: center;">
+                        <span class="icon is-large"><i class="fas fa-mug-hot fa-2x"></i></span>
+                        <span class="is-size-4 has-text-weight-bold ml-2">Aroma Coffee</span>
+                    </span>
+                </a>
+                <a role="button" class="navbar-burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')" style="align-self: center; height: auto;">
+                    <span></span><span></span><span></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">Главная</a>
+                    <a class="navbar-item" href="about.html">О компании</a>
+                    <a class="navbar-item is-active" href="team.html">Команда</a>
+                    <a class="navbar-item" href="products.html">Продукты</a>
+                    <a class="navbar-item" href="contacts.html">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-warning is-medium">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-1 has-text-dark">Наша команда</h1>
+                <p class="subtitle is-4 has-text-dark">Профессионалы своего дела</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-square">
+                                <img src="./img/rabotniki/me.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Бакиров Рамазан</p>
+                            <p class="subtitle is-6 has-text-warning">Основатель и CEO</p>
+                            <div class="content">
+                                <p>15 лет опыта в кофейной индустрии. Сертифицированный Q-грейдер и судья международных чемпионатов бариста.</p>
+                                <p class="has-text-weight-bold">Достижения:</p>
+                                <ul>
+                                    <li>Победитель Cup of Excellence 2018</li>
+                                    <li>Автор книги "Путь кофе"</li>
+                                    <li>Основатель кофейной школы</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-square">
+                               <img src="./img/rabotniki/iliyas.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Илияс Жансериков</p>
+                            <p class="subtitle is-6 has-text-warning">Главный обжарщик</p>
+                            <div class="content">
+                                <p>12 лет опыта в обжарке кофе. Создала более 30 уникальных купажей для нашей компании. Моя двоюродная сестра.</p>
+                                <p class="has-text-weight-bold">Достижения:</p>
+                                <ul>
+                                    <li>Сертификат SCA Roasting Professional</li>
+                                    <li>2 место на Asia Roaster Championship</li>
+                                    <li>Разработка авторских профилей обжарки</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-square">
+                               <img src="./img/rabotniki/nuris.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Нурислам Саянулы</p>
+                            <p class="subtitle is-6 has-text-warning">Менеджер по закупкам</p>
+                            <div class="content">
+                                <p>10 лет работы с производителями кофе по всему миру. Регулярно посещает плантации в странах-производителях.</p>
+                                <p class="has-text-weight-bold">Достижения:</p>
+                                <ul>
+                                    <li>Эксклюзивные контракты с 15 фермами</li>
+                                    <li>Специалист по прямой торговле</li>
+                                    <li>Сертификат Fair Trade эксперта</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="section has-background-light">
+        <div class="container has-text-centered">
+            <h2 class="title is-3">Хотите присоединиться к нашей команде?</h2>
+            <p class="subtitle is-5 mb-5">Мы всегда ищем талантливых и увлеченных людей</p>
+            <a href="contacts.html" class="button is-warning is-large">Связаться с нами</a>
+        </div>
+    </section>
+
+    <footer class="footer has-background-dark has-text-light">
+        <div class="content has-text-centered">
+            <p class="has-text-light"><strong class="has-text-warning">Aroma Coffee Roasters</strong> © 2025</p>
+            <p class="has-text-light">Качество в каждой чашке</p>
+        </div>
+    </footer>
+</body>
+</html>
